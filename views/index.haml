@@ -1,0 +1,6 @@
+.totalQuotes
+  %h3="Total Quotes: #{@quotes.count}"
+
+- @quotes.each do |quote|
+  .card
+    %p= quote.quote

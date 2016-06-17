@@ -1,0 +1,25 @@
+!!! 5
+%head
+  %meta{charset: "utf-8"}
+  %title="Star Wars Quotes"
+  %meta{content: "Simple App with lot's star wars quotes", name: "description"}
+  %meta{content: "salman hoque", name: "author"}
+  %meta{name: "viewport", content: "width=device-width; initial-scale=1.0; maximum-scale=1.0;"}
+  %link{href: "/favicon.ico", rel: "shortcut icon"}
+  %link{href: "https://fonts.googleapis.com/css?family=Taviraj", rel: "stylesheet"}
+  %link{href: "https://fonts.googleapis.com/css?family=Monoton", rel: "stylesheet"}
+  %link{href: "/style.css", rel: "stylesheet"}
+%body
+  .header
+    .container
+      %h1 Star Wars Quotes
+  .container
+    %form{action: "/s", method: "get"}
+      .searchbar
+        .inputField
+          %input{name: 'keys', type: 'search'}
+        .submitButton
+          %input{type:'submit', value:'Search'}
+  .quotes
+    .container
+      = yield
