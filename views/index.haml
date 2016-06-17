@@ -1,5 +1,8 @@
-.totalQuotes
-  %h3="Total Quotes: #{@quotes.count}"
+.nav
+  .totalQuotes
+    %h3="Total Quotes: #{@quotes.count}"
+  .createNew
+    %a{href: '/quotes/new' } Add New Quote
 
 - @quotes.each do |quote|
   .card

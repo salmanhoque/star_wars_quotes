@@ -1,0 +1,10 @@
+.totalQuotes
+  %h3 Add a new Star wars quote
+
+  .newQuotes
+    %form{action: "/quotes", method: "post"}
+      .searchbar
+        .inputField
+          %input{name: 'quote', type: 'search', placeholder: 'A Jedi uses the Force for knowledge and defense, never for attack.'}
+        .submitButton
+          %input{type:'submit', value:'Add New Quote'}

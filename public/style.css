@@ -63,6 +63,11 @@ table {
   padding: 30px;
 }
 
+.header a {
+  text-decoration: none;
+  color: #FFF;
+}
+
 .searchbar {
   padding-top: 30px;
   padding-bottom: 10px;
@@ -90,6 +95,7 @@ input[type=submit] {
   font-size: 15px;
   padding: 27px 15px;
   background: #52B3D9;
+	color: #fff;
   border: 0 none;
   border-radius: 0px;
 }
@@ -98,14 +104,31 @@ input[type=submit] {
   padding-top: 30px;
 }
 
+.nav {
+  display: flex;
+  align-items: center;
+  padding-bottom: 30px;
+  width: 100%;
+}
+
 .totalQuotes {
-	padding-bottom: 30px;
+  width: 100%;
 }
 
 .totalQuotes h3 {
   font-family: 'Taviraj', serif;
-	font-size: 20px
+  font-size: 20px;
 }
+
+.createNew a {
+  display: block;
+  background: #52B3D9;
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  width: 200px;
+  text-align: center;
+  padding: 5px;}
 
 .card {
   box-shadow: 1px 1px #ccc;
