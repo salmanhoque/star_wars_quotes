@@ -9,6 +9,8 @@ after do
   ActiveRecord::Base.connection.close
 end
 
+set :bind, '0.0.0.0'
+
 get '/' do
   @quotes = Quote.all
   haml :index
