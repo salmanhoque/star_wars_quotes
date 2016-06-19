@@ -1,0 +1,8 @@
+build:
+  pre_ci:
+    - sudo pip install -U docker-compose
+    - docker-compose build
+  pre_ci_boot:
+    - docker-compose up -d
+  ci:
+    - echo 'works'

@@ -4,3 +4,6 @@ services:
     environment:
       POSTGRES_PASSWORD: password
       POSTGRES_DB: starwars_quotes_test
+  app_server:
+    environment:
+      APP_ENV: test
