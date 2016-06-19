@@ -18,6 +18,7 @@ GEM
     builder (3.2.2)
     coderay (1.0.9)
     diff-lcs (1.2.5)
+    dotenv (2.0.2)
     faker (1.6.3)
       i18n (~> 0.5)
     haml (4.0.7)
@@ -65,6 +66,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  dotenv
   faker
   haml
   pg

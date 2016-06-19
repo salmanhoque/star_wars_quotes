@@ -1,5 +1,5 @@
 require './config/db'
-require './models/Search'
+require './models/search'
 require './models/quote'
 require 'faker'
 

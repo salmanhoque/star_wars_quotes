@@ -1,0 +1,6 @@
+version: '2'
+services:
+  postgres:
+    environment:
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: starwars_quotes

@@ -2,16 +2,15 @@ version: '2'
 services:
   postgres:
     image: postgres
-    environment:
-
-      POSTGRES_PASSWORD: 'password'
-      POSTGRES_DB: 'starwars_quotes'
     networks:
       - app_net
   app_server:
     build: .
     environment:
       APP_ENV: development
+      POSTGRES_HOST: postgres
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
     command: ruby app.rb
     ports:
       - "8000:4567"
