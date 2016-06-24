@@ -2,5 +2,6 @@ version: '2'
 services:
   postgres:
     environment:
+      # prod databse system should be set in prod server environment
       POSTGRES_PASSWORD: password
       POSTGRES_DB: starwars_quotes
