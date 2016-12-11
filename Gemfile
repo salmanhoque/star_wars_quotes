@@ -1,11 +1,12 @@
 source 'https://rubygems.org'
 
+gem 'rake'
 gem 'sinatra'
 gem 'haml'
 gem 'sinatra-activerecord'
 gem 'pg'
-gem 'rake'
 gem 'faker'
 gem 'pry'
 gem 'rspec'
 gem 'dotenv'
+gem 'unicorn'
