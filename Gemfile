@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rake'
-gem 'sinatra'
+gem 'sinatra', '2.0.0'
 gem 'haml'
 gem 'sinatra-activerecord'
 gem 'pg'
